@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.inicio{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex: 50%;   
+    background-color: black;
+    color: white;
+    padding: 2%; 
+}
+
+aside{
+    display: flex;
+    flex: 50%;
+    padding-left: 10%;
+    
+    
+}
+
+p{
+    font-size: 250%;
+}
+
+
+
