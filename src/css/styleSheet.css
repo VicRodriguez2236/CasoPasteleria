@@ -21,13 +21,18 @@ nav a{
     padding: 20px;
 }
 
+#nav_nosotros:hover{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+
+}
+
 .inicio{
     background-color: black;
     color: white;
     border-radius: 50px;
 }
-
-
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -56,12 +61,20 @@ nav a{
     font-size: 250%;
 }
 
-h2{
+.subtemas{
+    font-size: 35px;
     text-align: center;
     margin: 5%;
+    color: white;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.secondContainer{
+.container_subs{
+    background-color: black;
+}
+
+.contenedores{
     display: flex;
     flex-wrap: wrap;
 }
@@ -87,4 +100,46 @@ h2{
     flex: 22%;
     text-align: center;
 }
+
+.sc_p{
+    font-size: 25px;
+}
+
+footer{
+    display: flex;
+    margin-top: 4%;
+}
+
+#mensajeFooter{
+    flex: 50%;
+}
+#botónFooter{
+    flex: 30%;
+    margin-left: 10px;
+    
+}
+button{
+    color: rgb(27, 25, 25);
+    background-color: rgb(187, 184, 184);
+    width:  50%;
+    font-size: 200%;
+    border-radius: 7%;
+    padding: 3%;
+    
+}
+#mf_p{
+    font-size: 250%;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+button:hover{
+    background-color: rgb(116, 113, 113);
+    color: black;
+}
+
 
